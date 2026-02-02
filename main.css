@@ -1,0 +1,104 @@
+body {
+    font-family: 'Manrope';
+    background: #f5f5f5;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1400px;
+    background: #FFFFFF;
+    padding: 125px;
+
+}
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    color: black;
+}
+
+h2 {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: gray;
+
+}
+
+p {
+    line-height: 27px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: -0.03em;
+
+    width: 430px;
+
+    color: white;
+}
+.house {
+    margin-top: 30px;
+    padding-top: 379px;
+    padding-left: 40px;
+    width: 1000px;
+    height: 410px;
+    background-image: url('resours/house1.jpg');
+    background-size: cover;
+ }
+
+ .look {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+
+    margin-top: 30px;
+
+ }
+
+.studio {
+    line-height: 1.2;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    margin: 30px 0;
+    color: black;
+    text-align: center;
+ }
+
+ .btn {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+
+    margin-top: 30px;
+    border-radius: 5px;
+ }
+
+ .btn:hover {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+ }
